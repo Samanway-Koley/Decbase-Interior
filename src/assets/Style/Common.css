@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h3,h4,h5,h6 {
+    margin: 0;
+}
+a {
+    color: #646464;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    text-decoration: none;
+}
+a:hover {
+    color: #37806B;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+:focus {
+    outline: none;
+}
+h1 {
+    font-family: 'Poppins-SemiBold';
+    color: #212121;
+    font-size: 72px;
+    line-height: 78px;
+}
+h2 {
+    font-family: 'Poppins-Medium';
+    color: #212121;
+    font-size: 48px;
+    line-height: 60px;
+}
+h3 {
+    font-family: 'Poppins-SemiBold';
+    color: #212121;
+    font-size: 30px;
+    line-height: 40px;
+}
+h4 {
+    font-family: 'Poppins-SemiBold';
+    color: #212121;
+    font-size: 24px;
+    line-height: 30px;
+}
+h5 {
+    font-family: 'Poppins-SemiBold';
+    color: #646464;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+p {
+    font-family: 'Poppins-Regular';
+    color: #646464;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.common-btn {
+    background-color: #37806B;
+    border-radius: 15px 0;
+    padding: 10px 28px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: normal;
+    color: #fff;
+    border: 1px solid #37806B;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.common-btn:hover {
+    background-color: #CAA892;
+    border-color: #CAA892;
+    color: #fff;
+}
+.brown-btn {
+    background-color: #CAA892;
+    border-color: #CAA892;
+    color: #fff;
+}
+.brown-btn::after {
+    background-color: #37806B;
+    border-color: #37806B;
+    color: #fff;
+}
+.common-arrow {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    border: 0;
+    background-color: #fff;
+    box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.common-arrow img {
+    width: 7px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.common-arrow:hover {
+    background-color: #37806B;
+}
+.common-arrow:hover img {
+    filter: brightness(0) invert(1);
+}
+.common-arrow svg {
+    display: none;
+}
+
+
