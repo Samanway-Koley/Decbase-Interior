@@ -269,7 +269,7 @@ main {
     font-family: 'Poppins-Bold';
     font-size: 288px;
     line-height: 288px;
-    background-image: url('/Images/about-number-img.jpg');
+    background-image: url('/Decbase-Interior/Images/about-number-img.jpg');
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -340,7 +340,7 @@ main {
     width: 210px;
     left: 100%;
     top: 105px;
-    background-image: url(/Images/line-odd.svg);
+    background-image: url(/Decbase-Interior/Images/line-odd.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -353,7 +353,7 @@ main {
     margin-top: 96px;
 }
 .each-success:nth-child(even)::after {
-    background-image: url(/Images/line-even.svg);
+    background-image: url(/Decbase-Interior/Images/line-even.svg);
     top: 0;
 }
 /****testimonial-sec****/
