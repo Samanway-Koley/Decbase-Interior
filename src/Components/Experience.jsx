@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import ExperienceImg from '/src/assets/Images/about-img2.jpg'
 
 const Experience = () => {
     return (
@@ -9,7 +10,7 @@ const Experience = () => {
                         <div className="col-lg-6">
                             <div className="experience-img">
                                 <div className="experience-img-wrap">
-                                    <img src="src/assets/Images/about-img2.jpg" alt="img" className="w-100" />
+                                    <img src={ExperienceImg} alt="img" className="w-100" />
                                 </div>
                             </div>
                         </div>

@@ -5,6 +5,9 @@ import TestimonialCard from "../Components/TestimonialCard";
 import TestimonialImg1 from '/src/assets/Images/client1.jpg';
 import TestimonialImg2 from '/src/assets/Images/client2.jpg';
 import TestimonialImg3 from '/src/assets/Images/client3.jpg';
+import NextArrow from '/src/assets/Images/next.svg'
+import PrevArrow from '/src/assets/Images/prev.svg'
+
 import { Link } from "react-router-dom";
 
 const Testimonial = () => {
@@ -19,10 +22,10 @@ const Testimonial = () => {
                     <div className="testimonial-slider">
                         <div className="testimonial-control">
                             <div className="swiper-button-prev common-arrow">
-                                <img src="src/assets/Images/prev.svg" alt="img" />
+                                <img src={PrevArrow} alt="img" />
                             </div>
                             <div className="swiper-button-next common-arrow">
-                                <img src="src/assets/Images/next.svg" alt="img" />
+                                <img src={NextArrow} alt="img" />
                             </div>
                         </div>
                         <Swiper

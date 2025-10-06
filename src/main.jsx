@@ -6,12 +6,12 @@ import './assets/Style/Fonts.css'
 import './assets/Style/Common.css'
 import './assets/Style/Style.css'
 import './assets/Style/Responsive.css'
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <HashRouter>
     <StrictMode>
       <App />
     </StrictMode>
-  </BrowserRouter>
+  </HashRouter>
 )

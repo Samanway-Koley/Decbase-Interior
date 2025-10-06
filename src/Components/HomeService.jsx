@@ -5,6 +5,8 @@ import ServiceCard from "../Components/ServiceCard";
 import ServiceIcon1 from '/src/assets/Images/ser1.svg'
 import ServiceIcon2 from '/src/assets/Images/ser2.svg'
 import ServiceIcon3 from '/src/assets/Images/ser3.svg'
+import NextArrow from '/src/assets/Images/next.svg'
+import PrevArrow from '/src/assets/Images/prev.svg'
 
 export const HomeService = () => {
     return (
@@ -20,10 +22,10 @@ export const HomeService = () => {
                             <div className="col-lg-4">
                                 <div className="service-control">
                                     <button className="swiper-button-prev common-arrow">
-                                        <img src="src/assets/Images/prev.svg" alt="img" />
+                                        <img src={PrevArrow} alt="img" />
                                     </button>
                                     <button className="swiper-button-next common-arrow">
-                                        <img src="src/assets/Images/next.svg" alt="img" />
+                                        <img src={NextArrow} alt="img" />
                                     </button>
                                 </div>
                             </div>

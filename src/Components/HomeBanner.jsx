@@ -2,6 +2,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectFade, Autoplay } from 'swiper/modules';
 import 'swiper/css/bundle';
 import { Link } from 'react-router-dom';
+import HomeBannerImg1 from '/src/assets/Images/banner.jpg';
+import HomeBannerImg2 from '/src/assets/Images/banner2.jpg';
+import HomeBannerImg3 from '/src/assets/Images/banner3.jpg';
+import HomeBannerImg4 from '/src/assets/Images/banner4.jpg';
 
 export const HomeBanner = () => {
     return (
@@ -22,22 +26,22 @@ export const HomeBanner = () => {
                                         modules={[EffectFade, Autoplay]} effect="fade">
                                         <SwiperSlide>
                                             <div className="each-banner">
-                                                <img src="src/assets/Images/banner.jpg" alt="img" className="w-100" />
+                                                <img src={HomeBannerImg1} alt="img" className="w-100" />
                                             </div>
                                         </SwiperSlide>
                                         <SwiperSlide>
                                             <div className="each-banner">
-                                                <img src="src/assets/Images/banner2.jpg" alt="img" className="w-100" />
+                                                <img src={HomeBannerImg2} alt="img" className="w-100" />
                                             </div>
                                         </SwiperSlide>
                                         <SwiperSlide>
                                             <div className="each-banner">
-                                                <img src="src/assets/Images/banner3.jpg" alt="img" className="w-100" />
+                                                <img src={HomeBannerImg3} alt="img" className="w-100" />
                                             </div>
                                         </SwiperSlide>
                                         <SwiperSlide>
                                             <div className="each-banner">
-                                                <img src="src/assets/Images/banner4.jpg" alt="img" className="w-100" />
+                                                <img src={HomeBannerImg4} alt="img" className="w-100" />
                                             </div>
                                         </SwiperSlide>
                                     </Swiper>

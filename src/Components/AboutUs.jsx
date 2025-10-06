@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import AboutImg from '/src/assets/Images/about-img1.jpg'
 
 export const AboutUs = () => {
     return (
@@ -9,7 +10,7 @@ export const AboutUs = () => {
                         <div className="col-lg-6">
                             <div className="about-img">
                                 <div className="about-img-wrap">
-                                    <img src="src/assets/Images/about-img1.jpg" alt="img" className="w-100" />
+                                    <img src={AboutImg} alt="img" className="w-100" />
                                 </div>
                             </div>
                         </div>
