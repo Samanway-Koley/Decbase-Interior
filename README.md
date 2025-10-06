@@ -1,16 +1,66 @@
-# React + Vite
+# 🏠 Decbase Interior – Interior Design Company Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Decbase Interior is a sleek and modern website built for an interior design company. Developed using **React.js**, **HTML5**, and **CSS3**, this project showcases a responsive and visually appealing layout aimed at delivering a clean and elegant user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+🔹 **Modern UI/UX Design** – Clean, minimalist layout to reflect premium design services  
+🔹 **Responsive Design** – Optimized for desktop, tablet, and mobile devices  
+🔹 **Component-Based Architecture** – Built with reusable React components  
+🔹 **Static Web Application** – Fast performance with no backend dependencies  
+🔹 **Cross-Browser Compatibility** – Works seamlessly across major web browsers  
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📷 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> <img width="859" height="458" alt="image" src="https://github.com/user-attachments/assets/dbd1c889-2408-4de3-9b80-9c8a761829a0" />
+
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, HTML5, CSS3  
+- **Tools**: VS Code, Git, GitHub  
+- **Deployment**: GitHub Pages
+
+---
+
+## 📁 Folder Structure
+
+```
+decbase-interior/
+├── dist/
+├── node_modules/
+├── public/
+│   ├── Fonts/
+│   └── Images/
+├── src/
+│   ├── assets/
+│   │   ├── Images/
+│   │   └── Style/
+│   │       ├── Common.css
+│   │       ├── Fonts.css
+│   │       ├── Responsive.css
+│   │       └── Style.css
+│   ├── Components/
+│   └── Pages/
+│       ├── About.jsx
+│       ├── Blog.jsx
+│       ├── BlogDetail.jsx
+│       ├── Contact.jsx
+│       ├── Home.jsx
+│       ├── Services.jsx
+│       └── TestimonialPg.jsx
+│   ├── App.jsx
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+└── README.md
+
